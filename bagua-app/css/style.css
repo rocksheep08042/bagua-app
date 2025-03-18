@@ -1,0 +1,15 @@
+/* 自定义动画 */
+@keyframes hexagram-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.hexagram-spinner {
+    animation: hexagram-spin 2s linear infinite;
+}
+
+/* 卦象卡片样式 */
+.hexagram-card {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #d97706;
+}
